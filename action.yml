@@ -1,0 +1,9 @@
+# action.yml
+name: 'Run ARM TTK'
+description: 'Run ARM TTK in your project'
+outputs:
+  TestFailures: # id of output
+    description: 'Test Failures'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
